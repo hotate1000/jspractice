@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .screenBlue {
+      height: 100vh;
+      color: #fff;
+      font-size: 5em;
+      text-align: center;
+      background-color: #88f;
+    }
+    .screenRed {
+      height: 100vh;
+      color: #fff;
+      font-size: 5em;
+      text-align: center;
+      background-color: #f88;
+    }
+    .pageTop {
+      display: none;
+      padding: 40px 10px;
+      background-color: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="screenBlue">ここがトップページです</div>
+  <div class="screenRed">2ページ目</div>
+  <div class="screenBlue">3ページ目</div>
+  <div class="screenRed">4ページ目</div>
+  <div class="screenBlue">5ページ目</div>
+  <a class="pageTop" id="top" href="#">TOPに戻る</a>
+  <script src="scrollOperation.js"></script>
+</body>
+</html>
